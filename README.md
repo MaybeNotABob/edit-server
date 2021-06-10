@@ -27,6 +27,7 @@ Compile reader.exe
 ``` clang reader.c -o reader.exe ```
 
 **Test**
+
 Both writer and reader should be compiled and within the same directory to perform the test.
 Execute the writer which will update the resource section of the reader. The below screenshots show the resource section using Resource Hacker before and after execution of the writer.
 
