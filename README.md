@@ -16,7 +16,7 @@ More information about Windows resources: https://docs.microsoft.com/en-gb/windo
 
 **Directory**: [win-rsrc/](https://github.com/MaybeNotABob/edit-server/tree/main/win-rsrc)
   
-The following has been compiled and tested on Windows 7 with Clang 10.0.1
+The following has been compiled and tested on Windows with Clang 10.0.1
 
 Compile writer.exe
 
