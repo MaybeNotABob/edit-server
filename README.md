@@ -32,8 +32,8 @@ Execute the writer which will update the resource section of the reader. The bel
 
 Before:
 
-![NoRsrc](https://raw.githubusercontent.com/MaybeNotABob/edit-server/main/win-rsrc/01-reader-exe%20before%20executing%20writer-exe.png?token=AQPKBK3KEBSQO57BK2DZ3IDAYH4VK)
+![NoRsrc](https://github.com/MaybeNotABob/edit-server/blob/main/win-rsrc/01-reader-exe%20before%20executing%20writer-exe.png)
 
 After:
 
-![WithRsrc](https://raw.githubusercontent.com/MaybeNotABob/edit-server/main/win-rsrc/02-reader-exe%20after%20executing%20writer-exe.png?token=AQPKBK54XL6ZGO5IBCS272TAYH4VM) 
+![WithRsrc](https://github.com/MaybeNotABob/edit-server/blob/main/win-rsrc/02-reader-exe%20after%20executing%20writer-exe.png) 
