@@ -14,7 +14,7 @@ The aim of the project is to demonstrate possible ways in which Command and Cont
 **Description**: Store a fixed size struct containing a hostname (github.com) and port (6666) within the resource section of a portable executable (PE / EXE).
 More information about Windows resources: https://docs.microsoft.com/en-gb/windows/win32/menurc/resources-overviews
 
-**Directory**: win-rsrc/
+**Directory**: [win-rsrc/](https://github.com/MaybeNotABob/edit-server/tree/main/win-rsrc)
   
 The following has been compiled and tested on Windows 7 with Clang 10.0.1
 
