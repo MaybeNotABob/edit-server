@@ -55,7 +55,7 @@ Compile reader.exe
 
 **Test**
 
-Compile both the reader and writing files. Execute the writer.exe which will append a fixed size structure to the end of the reader.exe. Using the hostname github.com and port 6666 this is 16 bytes in total. Execute the reader will read the settings from within itself.
+Compile both the reader and writing files. Execute the writer.exe which will append a fixed size structure to the end of the reader.exe. Using the hostname github.com and port 6666 this is 16 bytes in total. Execuing the reader will result in the settings being read back from within. The screenshots below show this change viewed using a hex editor.
 
 Before:
 
