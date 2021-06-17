@@ -40,6 +40,7 @@ After:
 ![WithRsrc](https://github.com/MaybeNotABob/edit-server/blob/main/win-rsrc/02-reader-exe%20after%20executing%20writer-exe.png) 
 
 
+
 ## Windows PE end of file (EOF)
 **Description**: Store a fixed sized struct containing a hostname and port as an overlay at the end of a portable executable (PE / EXE).
 
