@@ -5,7 +5,7 @@ The aim of the project is to demonstrate possible ways in which Command and Cont
 
 ## Index
 - Windows PE resources (.rsrc)
--
+- Windows PE end of file (EOF)
 -
 
 
@@ -38,3 +38,31 @@ Before:
 After:
 
 ![WithRsrc](https://github.com/MaybeNotABob/edit-server/blob/main/win-rsrc/02-reader-exe%20after%20executing%20writer-exe.png) 
+
+
+## Windows PE end of file (EOF)
+**Description**: Store a fixed sized struct containing a hostname and port as an overlay at the end of a portable executable (PE / EXE).
+
+**Directory**:  [win-eof/](https://github.com/MaybeNotABob/edit-server/tree/main/win-eof)
+
+Compile writer.exe
+
+``` clang writer.c -o writer.exe ```
+
+Compile reader.exe
+
+``` clang reader.c -o reader.exe ```
+
+**Test**
+
+Compile both the reader and writing files. Execute the writer.exe which will append a fixed size structure to the end of the reader.exe. Using the hostname github.com and port 6666 this is 16 bytes in total. Execute the reader will read the settings from within itself.
+
+Before:
+
+![NoEOF](https://github.com/MaybeNotABob/edit-server/blob/main/win-eof/01-reader-exe%20before%20executing%20EOF%20writer.png)
+
+After:
+
+![EOF](https://github.com/MaybeNotABob/edit-server/blob/main/win-eof/02-reader-exe%20after%20executing%20EOF%20writer.png)
+
+
