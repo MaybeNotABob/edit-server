@@ -6,7 +6,7 @@ The aim of the project is to demonstrate possible ways in which Command and Cont
 ## Index
 - Windows PE resources (.rsrc)
 - Windows PE end of file (EOF)
--
+- Windows PE section
 
 
 ## Windows PE resources (.rsrc)
@@ -66,4 +66,16 @@ After:
 
 ![EOF](https://github.com/MaybeNotABob/edit-server/blob/main/win-eof/02-reader-exe%20after%20executing%20EOF%20writer.png)
 
+
+## Windows PE section
+
+**Description**:
+
+**Directory**:
+
+**Test**
+
+Before:
+
+After:
 
